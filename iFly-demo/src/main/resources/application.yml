@@ -1,0 +1,13 @@
+server:
+  port: 10000
+
+spring:
+  application:
+    name: iFly-openai-chat-demo
+  ai:
+    openai:
+      api-key: ${API_KEY}
+      base-url: https://spark-api-open.xf-yun.com # 不同模型需选择对应的base-url
+      chat:
+       options:
+         model: lite
