@@ -1,0 +1,25 @@
+server:
+  port: 10003
+
+spring:
+  application:
+    name: mcp-sse-client
+  main:
+    web-application-type: none
+  ai:
+    dashscope:
+      api-key: ${API_KEY}
+    mcp:
+      client:
+        sse:
+          connections:
+            server1:
+              url: http://localhost:10004/
+  mandatory-file-encoding: UTF-8
+
+logging:
+  level:
+    io:
+      modelcontextprotocol:
+        client: DEBUG
+        spec: DEBUG

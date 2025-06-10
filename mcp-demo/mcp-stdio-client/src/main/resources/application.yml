@@ -1,0 +1,23 @@
+server:
+  port: 10001
+
+spring:
+  application:
+    name: mcp-stdio-client
+  main:
+    web-application-type: none
+  ai:
+    dashscope:
+      api-key: ${API_KEY}
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:/mcp-servers-config.json
+  mandatory-file-encoding: UTF-8
+
+logging:
+  level:
+    io:
+      modelcontextprotocol:
+        client: DEBUG
+        spec: DEBUG
