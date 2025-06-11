@@ -11,6 +11,12 @@
 - 提供Redis实现
 - 提供MySQL实现
 
+### 文件聊天记忆功能
+
+1. 基于 kryo 实现 Pool，提供starter
+
+2. 实现ChatMemoryRepository完成自定义FileChatMemoryRepository 
+
 ### 部分参数解释：
 - MAX_MESSAGE：默认为20条上下文信息，达到后会删除旧消息
 

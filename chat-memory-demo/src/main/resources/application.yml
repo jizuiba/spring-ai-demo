@@ -32,3 +32,25 @@ spring:
               driver-class-name: com.mysql.cj.jdbc.Driver
 
 # NOTE: 在使用数据库时，无需自己建表
+
+# KryoPool 配置
+kryo:
+  pool:
+    # 池中最大对象数量
+    max-total: 16
+    # 池中最大空闲对象数量
+    max-idle: 8
+    # 池中最小空闲对象数量
+    min-idle: 2
+    # 获取对象时的最大等待时间(毫秒)
+    max-wait-millis: 3000
+    # 是否在获取对象时验证对象有效性
+    test-on-borrow: false
+    # 是否在归还对象时验证对象有效性
+    test-on-return: false
+    # 是否在空闲时验证对象有效性
+    test-while-idle: true
+    # 空闲对象检测线程运行间隔时间(毫秒)
+    time-between-eviction-runs-millis: 30000
+    # 对象在池中空闲的最小时间(毫秒)，达到此时间后可被回收
+    min-evictable-idle-time-millis: 60000
