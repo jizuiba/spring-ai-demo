@@ -11,6 +11,6 @@
 
 
 # 扩展：
-## spring-boot-kryo-pool-starter
+## kryo-pool-spring-boot-starter
 
 用于实现基于文件的聊天记忆
