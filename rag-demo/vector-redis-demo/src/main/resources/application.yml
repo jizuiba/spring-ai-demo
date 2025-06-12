@@ -1,0 +1,25 @@
+server:
+  port: 10007
+
+spring:
+  application:
+    name: vector-redis-demo
+  profiles:
+    active: local
+
+  ai:
+    dashscope:
+      api-key: ${API_KEY}
+
+    vectorstore:
+      redis:
+        initialize-schema: true
+        prefix: prefix_spring_ai_alibaba
+        index-name: index_default # 索引名称也会影响 search
+
+  data:
+    redis:
+      host: ${REDIS_HOST}
+      port: 6379
+      username: ${REDIS_USERNAME} # 可不填
+      password: ${PASSWORD} # 没有可不填

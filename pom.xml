@@ -12,6 +12,7 @@
         <module>mcp-demo</module>
         <module>chat-memory-demo</module>
         <module>alibaba-demo</module>
+        <module>rag-demo</module>
     </modules>
     <packaging>pom</packaging>
 
