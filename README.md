@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://deepwiki.com/jizuiba/spring-ai-demo"><img src="https://deepwiki.com/badge.svg?theme=gvp"></a>
+</p>
+
 # Spring AI 及 Spring AI Alibaba 示例
 
 - iFly类 openai 调用
