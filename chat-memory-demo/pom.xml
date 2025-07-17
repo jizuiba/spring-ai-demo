@@ -47,7 +47,7 @@
 
         <!-- 支持文件会话记忆持久化的序列化 -->
         <dependency>
-            <groupId>cm.jizuiba</groupId>
+            <groupId>cn.jizuiba</groupId>
             <artifactId>kryo-pool-spring-boot-starter</artifactId>
             <version>1.0.0</version>
         </dependency>
