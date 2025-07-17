@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### 移除个人使用 ###
+**/src/main/resources/application-own.yml
