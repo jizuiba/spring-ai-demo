@@ -7,3 +7,9 @@ spring:
   ai:
     dashscope:
       api-key: ${API_KEY}
+  profiles:
+    active: default
+
+logging:
+  level:
+    org.springframework.ai.chat.client.advisor: DEBUG

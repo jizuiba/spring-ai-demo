@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: iFly-openai-chat-demo
+  profiles:
+    active: default
   ai:
     openai:
       api-key: ${API_KEY}

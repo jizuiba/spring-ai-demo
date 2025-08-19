@@ -1,0 +1,18 @@
+server:
+  port: 10008
+
+spring:
+  application:
+    name: structured-output-demo
+  profiles:
+    active: default
+  ai:
+    openai:
+      api-key: ${API_KEY}
+      base-url: https://api.siliconflow.cn
+      chat:
+        options:
+          model: Qwen/Qwen2-7B-Instruct
+logging:
+  level:
+    org.springframework.ai.chat.client.advisor: DEBUG

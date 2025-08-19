@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: mcp-stdio-client
+  profiles:
+    active: default
   main:
     web-application-type: none
   ai:
